@@ -1,5 +1,7 @@
 # BuildingSystem
 
+* **[Video Demo](https://drive.google.com/file/d/19s9VRnysP-7is328kUljZScqqLh8YkWL/view?usp=sharing)**
+
 ## Controls
 * **LMB**: Build / Edit (drag existing edge).
 * **LMB + Shift**(hold): Delete (Eraser).
@@ -16,4 +18,4 @@
 * **Spatial Grid**: Custom 2D spatial hash for $O(1)$ object lookup and overlap validation (no Unity Physics used, almost).
 
 Recommended starting point for code research:
-**`MainGameController.cs`**: Entry point.
+**`MainGameController.cs`**
