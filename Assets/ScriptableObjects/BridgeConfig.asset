@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fb3ab732df78134bbb311db486ced8a, type: 3}
+  m_Name: BridgeConfig
+  m_EditorClassIdentifier: Assembly-CSharp::BridgeConfig
+  _type: 0
+  StartMesh: {fileID: 2649131733537110833, guid: ef7b3c917f5148549bac005df8385cd9, type: 3}
+  FillMesh: {fileID: -4817737313560670388, guid: ef7b3c917f5148549bac005df8385cd9, type: 3}
+  MidMesh: {fileID: 3275469167035317283, guid: ef7b3c917f5148549bac005df8385cd9, type: 3}
+  EndMesh: {fileID: 5633196641619828338, guid: ef7b3c917f5148549bac005df8385cd9, type: 3}
+  StartLen: 4
+  FillLen: 0.6
+  MidLen: 6
+  EndLen: 4
