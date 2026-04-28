@@ -33,10 +33,10 @@ void GetInstanceData_float(float InID, float Time, float3 WorldPos, out float3 C
     float fadeInDuration  = 0.5;
     float fadeOutDuration = 0.5;
 
-    // появление
+    //appear
     float appear = saturate((Time - createTime) / fadeInDuration);
 
-    // исчезновение
+    //disappear
     float disappear = 1.0;
 
     if (deathTime > 0.01)
@@ -47,13 +47,13 @@ void GetInstanceData_float(float InID, float Time, float3 WorldPos, out float3 C
 
     float visibility = appear * disappear;
 
-    // шум
+    //noise
     float n = noise(WorldPos.xz * 10.0 + WorldPos.y * 10.0);
 
-    // финальная альфа
+    //final alpha
     AlphaOut = saturate(visibility + n * 0.5);
 
-    // если нужно мгновенное удаление
+    //instant check
     if (instant > 0.5 && Time > deathTime)
     {
         AlphaOut = 0;
